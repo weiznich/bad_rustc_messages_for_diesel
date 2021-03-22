@@ -1,0 +1,10 @@
+[package]
+name = "bad_rustc_messages_for_diesel"
+version = "0.1.0"
+authors = ["Georg Semmler <github@weiznich.de>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+diesel = {version = "1", features = ["postgres", "sqlite"], default-features = false}
